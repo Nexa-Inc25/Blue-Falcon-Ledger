@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blue Falcon Ledger — Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; max-width: 720px; margin: 2rem auto; padding: 0 1.25rem; color: #1a1a1a; }
+    h1 { font-size: 1.75rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+    p, li { font-size: 1rem; }
+    .muted { color: #555; }
+  </style>
+</head>
+<body>
+  <h1>Blue Falcon Ledger Privacy Policy</h1>
+  <p class="muted">Last updated: June 2026</p>
+
+  <p>Blue Falcon Ledger ("the app") is built for journeyman linemen to track employers, hours,
+  per diem, credentials, and to ask questions about their labor agreement. This policy
+  explains what the app does with your information.</p>
+
+  <h2>What we store</h2>
+  <p>Everything you enter — employers, labor agreements, logged hours, pay documents,
+  credentials, and chat history — is stored <strong>locally on your device</strong> using Apple's
+  on-device storage and Keychain, encrypted at rest. We do not run a database of your
+  personal data, and your account for the on-device sign-in never leaves your phone.</p>
+
+  <h2>What is sent off the device</h2>
+  <p>To answer questions and analyze pay, the app sends the <strong>relevant portions of your labor
+  agreement and the pay/hours data needed for that question</strong> to the AI model that powers
+  the analysis:</p>
+  <ul>
+    <li><strong>BFL Cloud:</strong> the request goes to our proxy server, which forwards it to Anthropic
+    (Claude) and returns the answer. The proxy does not store your contract or pay data.</li>
+    <li><strong>Your own API key (optional):</strong> the request goes directly from your device to the
+    provider you chose (Anthropic, OpenAI, or xAI).</li>
+    <li><strong>On-device model:</strong> nothing is sent off the device.</li>
+  </ul>
+  <p>Your stored credentials (CPR card, DOT physical, dues receipt, etc.) are <strong>never</strong> sent
+  off the device.</p>
+  <p>This data is used only to generate your answer. It is not sold, not used for advertising,
+  and not used to identify you.</p>
+
+  <h2>What we do NOT do</h2>
+  <ul>
+    <li>No analytics or tracking SDKs.</li>
+    <li>No advertising.</li>
+    <li>No selling or sharing of personal data.</li>
+  </ul>
+
+  <h2>Your control</h2>
+  <p>Delete an employer, document, credential, or your data at any time inside the app;
+  removing the app deletes all locally stored data.</p>
+
+  <h2>Not legal advice</h2>
+  <p>Blue Falcon Ledger is an informational tool and can make mistakes. It is not legal advice.
+  Always verify important pay and contract questions with your local union hall or business
+  agent.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:mike.v.moore@protonmail.com">mike.v.moore@protonmail.com</a></p>
+</body>
+</html>
