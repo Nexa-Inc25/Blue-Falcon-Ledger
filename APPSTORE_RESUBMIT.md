@@ -26,7 +26,7 @@ No code change required.
 ### A. Host the privacy policy (required before resubmit)
 
 1. Upload `docs/privacy.html` from this repo to your web host.
-2. It must load in a browser at: **https://nexa-us.io/privacy.html** (or update `AppLegal.privacyPolicyURL` in the app to match your URL).
+2. It loads at: **https://nexa-inc25.github.io/Blue-Falcon-Ledger/privacy.html** (GitHub Pages, `main` / `/docs`).
 3. Confirm both links open on your phone:
    - Privacy: your hosted `privacy.html`
    - Terms: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
@@ -42,7 +42,7 @@ SUBSCRIPTION
 BFL Pro is an auto-renewable subscription (monthly or yearly) for unlimited BFL Cloud analysis and agreement chat. Payment is charged to your Apple Account. Subscriptions renew automatically unless canceled at least 24 hours before the end of the period. Manage or cancel in Settings → Apple ID → Subscriptions.
 
 Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Privacy Policy: https://nexa-us.io/privacy.html
+Privacy Policy: https://nexa-inc25.github.io/Blue-Falcon-Ledger/privacy.html
 ```
 
 (Use your real privacy URL if different.)
@@ -103,7 +103,7 @@ We addressed all three issues:
 
 3. Subscriptions: Verified Paid Apps Agreement, subscription metadata, and attached both auto-renewable products to this app version. Tested sandbox purchase on iPad — both monthly and yearly plans load and purchase successfully.
 
-Privacy Policy: https://nexa-us.io/privacy.html
+Privacy Policy: https://nexa-inc25.github.io/Blue-Falcon-Ledger/privacy.html
 Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 ```
 

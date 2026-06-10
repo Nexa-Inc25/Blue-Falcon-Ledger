@@ -25,7 +25,7 @@ Do these **before** or **with** the new upload:
    App Store Connect → Blue Falcon Ledger → **Subscriptions** → each product → remove the promotional image (Apple rejected it for being an app screenshot).
 
 2. **Privacy Policy URL**  
-   Host `docs/privacy.html` at a working URL (e.g. `https://nexa-us.io/privacy.html`).  
+   GitHub Pages URL: `https://nexa-inc25.github.io/Blue-Falcon-Ledger/privacy.html`  
    Paste that URL into App Store Connect → **App Privacy** → Privacy Policy URL.
 
 3. **App Description**  
@@ -74,7 +74,7 @@ TestFlight alone does **not** re-trigger App Review. You must **submit for revie
      Sandbox test account: [your sandbox email]
      Paywall: Sign in → Home → Settings (gear) → Go Pro
      Subscriptions: io.nexaus.bfc.pro.monthly, io.nexaus.bfc.pro.yearly
-     Privacy: https://nexa-us.io/privacy.html
+     Privacy: https://nexa-inc25.github.io/Blue-Falcon-Ledger/privacy.html
      Terms: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
      ```
    - Attach **screen recording** of paywall with plans loading on iPad.

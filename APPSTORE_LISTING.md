@@ -50,18 +50,17 @@ SUBSCRIPTION
 BFL Pro is an auto-renewable subscription (monthly or yearly) for unlimited BFL Cloud analysis and agreement chat. Payment is charged to your Apple Account. Subscriptions renew automatically unless canceled at least 24 hours before the end of the period. Manage or cancel in Settings → Apple ID → Subscriptions.
 
 Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Privacy Policy: https://nexa-us.io/privacy.html
+Privacy Policy: https://nexa-inc25.github.io/Blue-Falcon-Ledger/privacy.html
 
 ## Support URL (required — must be a working page)
-https://nexa-us.io        (or any page/Notion/email-contact page you control)
+https://nexa-inc25.github.io/Blue-Falcon-Ledger/
 
 ## Marketing URL (optional)
 (leave blank or your site)
 
 ## Privacy Policy URL (required to submit; needed for external TestFlight)
-https://nexa-us.io/privacy.html
-Upload `docs/privacy.html` from this repo — must be a working page before resubmitting.
-See APPSTORE_RESUBMIT.md for the full rejection fix checklist.
+https://nexa-inc25.github.io/Blue-Falcon-Ledger/privacy.html
+Hosted via GitHub Pages (`main` branch, `/docs` folder). See APPSTORE_RESUBMIT.md.
 
 ## Age rating
 4+ (no objectionable content in the app itself)
