@@ -117,6 +117,6 @@ Attach a **screen recording** showing: Settings → Go Pro → plans visible →
 Sandbox test account: [your sandbox Apple ID email]
 How to reach paywall: Sign in → Home (gear) Settings → Go Pro, or use BFL Cloud until free uses run out.
 Subscriptions: BFL Pro Monthly and Yearly — product IDs io.nexaus.bfc.pro.monthly and io.nexaus.bfc.pro.yearly.
-Privacy: https://nexa-us.io/privacy.html
+Privacy: https://nexa-inc25.github.io/Blue-Falcon-Ledger/privacy.html
 Terms (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 ```
