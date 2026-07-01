@@ -53,9 +53,11 @@ BFC/
 ```
 
 > On disk the logging/uploads folder is `Features/Hours/`, shared helpers live in
-> `Features/Shared/`, and there are also `Features/Chat/` (agreement Q&A) and
-> `Features/Settings/`. The `BFC.xcodeproj` uses **Xcode synchronized file groups** —
-> adding a file anywhere under `BFC/` automatically includes it in the target.
+> `Features/Shared/`, and there are also `Features/Chat/` (agreement Q&A),
+> `Features/Settings/`, `Features/Credentials/`, `Features/Disclaimer/` (legal), and
+> `Features/Subscription/` (**BFL Pro paywall — $7.99/mo or $59.99/yr**). The
+> `BFC.xcodeproj` uses **Xcode synchronized file groups** — adding a file anywhere
+> under `BFC/` automatically includes it in the target.
 
 ## Key Behaviors for This App
 - Labor Agreement PDF → full text extraction + permanent storage
@@ -79,8 +81,9 @@ BFC/
 Follow these rules on every task. When in doubt, make it simpler and more rugged.
 
 ## Core Data Models (SwiftData)
-`UserProfile`, `Employer`, `LaborAgreement`, `WorkDay`, `PayPeriod`, `PayDocument`,
-`ChatMessage`, `AnalysisResult`. Money is `Decimal`, hours are `Double`, dates are `Date`.
+`UserProfile`, `Employer`, `LaborAgreement`, `AgreementChunk`, `WorkDay`, `PayPeriod`,
+`PayDocument`, `ChatMessage`, `AnalysisResult`, `Credential`. Money is `Decimal`, hours
+are `Double`, dates are `Date`.
 
 ## Service Abstractions (so the app builds & runs offline with zero setup)
 - **Auth** — `AuthService` protocol. `LocalAuthService` (default, Keychain-backed,
